@@ -1,10 +1,5 @@
 import style from "./message.module.css"
-import dayjs from "dayjs";
-import relativeTime from "dayjs/plugin/relativeTime";
 import {Room} from "@/app/(afterSignIn)/messages/_component/room";
-
-dayjs.locale('ko');
-dayjs.extend(relativeTime);
 
 
 const Message = () => {
