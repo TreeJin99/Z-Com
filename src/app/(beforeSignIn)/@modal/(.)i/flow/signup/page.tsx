@@ -1,11 +1,10 @@
 import SignUpModal from "@/app/(beforeSignIn)/_component/SignUpModal";
 
-
-const SignInModal = () => {
+const SignUpPage = () => {
     return (
-        <SignInModal/>
+        <SignUpModal/>
     )
 }
 
 
-export default SignUpModal;
+export default SignUpPage;
